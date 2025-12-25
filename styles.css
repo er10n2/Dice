@@ -1,0 +1,40 @@
+body{
+  background-color: coral;
+}
+.container{
+  width:800px;
+  height:600px;
+  margin: auto;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#refresh{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color:brown;
+  font-weight: bolder;
+  font-size: 6rem;
+}
+p{
+  color:crimson;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bolder;
+}
+.footer img{
+  width:30px;
+}
+
+.footer{
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color:white;
+  font-weight: bolder;
+}
