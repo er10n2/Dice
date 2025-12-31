@@ -1,40 +1,68 @@
-body{
+body {
   background-color: coral;
-}
-.container{
-  width:800px;
-  height:600px;
-  margin: auto;
-  display: flex;
-  gap: 200px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-#refresh{
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-style: italic;
-  color:brown;
-  font-weight: bolder;
-  font-size: 6rem;
-}
-p{
-  color:crimson;
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-  font-style: italic;
-  font-weight: bolder;
-}
-.footer img{
-  width:30px;
+  font-family: 'Indie Flower', cursive; 
+  margin: 0;
+  padding: 20px;
 }
 
-.footer{
-  margin-top: 100px;
+#refresh {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-style: italic;
-  color:white;
+  color: brown;
+  font-size: 4rem; 
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; 
+  margin: 40px auto;
+  max-width: 100%;
+}
+
+
+img {
+  width: 80%; 
+  max-width: 200px;
+}
+
+p {
+  color: crimson;
+  font-size: 2rem;
   font-weight: bolder;
+}
+
+#roll-btn {
+  background-color: brown;
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Lobster', cursive;
+  box-shadow: 0 4px #999;
+  transition: 0.2s;
+}
+
+#roll-btn:hover {
+  background-color: #5e1c1c;
+}
+
+#roll-btn:active {
+  background-color: #5e1c1c;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.footer img {
+  width: 30px;
+  vertical-align: middle;
 }
